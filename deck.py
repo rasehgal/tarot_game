@@ -11,7 +11,7 @@ class deck:
     # print the deck, both names and definitions
     def print_deck(self):
         for card, defn in self.deck:
-            #print(card, '->', defn)
+            print(card, '->', defn)
             
     #grab index of an existing card in the deck. input is card name.
     def find_card(self, card_name):
