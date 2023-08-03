@@ -33,6 +33,7 @@ class deck:
     #TO-DO take in whether to pop or replace
     def draw_cards(self, count, replacement):
         drawn = []
+        count = int(count)
 		#if there are fewer than this many cards left, error
         if len(self.deck) < count: return 0
 		#iterate through the deck for the number of cards chosen (count)

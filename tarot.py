@@ -18,6 +18,7 @@ def spread(n, r = None):
     if r == 0:
         repl = r
     else: repl = 1
+    TDECK.shuffle_deck()
     decks = (TDECK.draw_cards(n, repl))
     new_spread = decks[1]
     for card, defn in new_spread:
